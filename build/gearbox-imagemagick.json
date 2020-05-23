@@ -21,6 +21,25 @@
 		"restart": "--restart no"
 	},
 	"run": {
+		"commands": {
+			"default": "/usr/bin/magick",
+			"identify": "/usr/bin/identify",
+			"animate": "/usr/bin/animate",
+			"composite": "/usr/bin/composite",
+			"display": "/usr/bin/display",
+			"compare": "/usr/bin/compare",
+			"mogrify": "/usr/bin/mogrify",
+			"montage": "/usr/bin/montage",
+			"magick-script": "/usr/bin/magick-script",
+			"import": "/usr/bin/import",
+			"convert": "/usr/bin/convert",
+			"conjure": "/usr/bin/conjure",
+			"magick": "/usr/bin/magick",
+			"stream": "/usr/bin/stream",
+			"MagickCore-config": "/usr/bin/MagickCore-config",
+			"Magick++-config": "/usr/bin/Magick++-config",
+			"MagickWand-config": "/usr/bin/MagickWand-config"
+		}
 	},
 	"project": {
 	},

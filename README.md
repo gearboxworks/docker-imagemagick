@@ -91,6 +91,23 @@ Running imagemagick Gearbox container default command. If a container has a defa
 `./launch imagemagick:7.0.9 -flag1 -flag2 variable`
 
 Gearbox containers may have multiple executables that can be run. The imagemagick Gearbox container has the following available commands:
+- `Magick++-config` - will execute `/usr/bin/Magick++-config` within the container.
+- `MagickCore-config` - will execute `/usr/bin/MagickCore-config` within the container.
+- `MagickWand-config` - will execute `/usr/bin/MagickWand-config` within the container.
+- `animate` - will execute `/usr/bin/animate` within the container.
+- `compare` - will execute `/usr/bin/compare` within the container.
+- `composite` - will execute `/usr/bin/composite` within the container.
+- `conjure` - will execute `/usr/bin/conjure` within the container.
+- `convert` - will execute `/usr/bin/convert` within the container.
+- The default command will execute `/usr/bin/magick` within the container.
+- `display` - will execute `/usr/bin/display` within the container.
+- `identify` - will execute `/usr/bin/identify` within the container.
+- `import` - will execute `/usr/bin/import` within the container.
+- `magick` - will execute `/usr/bin/magick` within the container.
+- `magick-script` - will execute `/usr/bin/magick-script` within the container.
+- `mogrify` - will execute `/usr/bin/mogrify` within the container.
+- `montage` - will execute `/usr/bin/montage` within the container.
+- `stream` - will execute `/usr/bin/stream` within the container.
 
 
 ### Remote connection
