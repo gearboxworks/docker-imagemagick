@@ -1,0 +1,43 @@
+{
+	"schema": "gear-1",
+	"meta": {
+		"state": "production",
+		"organization": "gearboxworks",
+		"name": "imagemagick",
+		"label": "Imagemagick",
+		"maintainer": "Gearbox Team <team@gearbox.works>",
+		"class": "graphics",
+		"refurl": "https://www.imagemagick.org/"
+	},
+	"build": {
+		"ports": {
+		},
+		"run": "",
+		"args": "",
+		"env": {
+		},
+		"network": "--network gearboxnet",
+		"volumes": "",
+		"restart": "--restart no"
+	},
+	"run": {
+	},
+	"project": {
+	},
+	"extensions": {
+	},
+	"versions": {
+		"7.0.9": {
+			"majorversion": "7.0",
+			"latest": true,
+			"ref": "",
+			"base": "gearboxworks/gearbox-base:alpine-3.11"
+		},
+		"6.9.10": {
+			"majorversion": "6.9",
+			"latest": false,
+			"ref": "",
+			"base": "gearboxworks/gearbox-base:alpine-3.11"
+		}
+	}
+}
