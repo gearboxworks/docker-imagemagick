@@ -69,13 +69,13 @@ Create, and start the imagemagick Gearbox container. Run a shell.
 
 `./launch shell imagemagick`
 
-Create, and start the imagemagick Gearbox container with version 7.0.9 and run a shell.
+Create, and start the imagemagick Gearbox container with version 6.9.10 and run a shell.
 
-`./launch shell imagemagick:7.0.9`
+`./launch shell imagemagick:6.9.10`
 
-`./launch shell imagemagick:7.0.9 ls -l`
+`./launch shell imagemagick:6.9.10 ls -l`
 
-`./launch shell imagemagick:7.0.9 ps -eaf`
+`./launch shell imagemagick:6.9.10 ps -eaf`
 
 
 ### Available commands
@@ -88,7 +88,7 @@ Running imagemagick Gearbox container default command. If a container has a defa
 
 `./imagemagick -flag1 -flag2 variable`
 
-`./launch imagemagick:7.0.9 -flag1 -flag2 variable`
+`./launch imagemagick:6.9.10 -flag1 -flag2 variable`
 
 Gearbox containers may have multiple executables that can be run. The imagemagick Gearbox container has the following available commands:
 - `Magick++-config` - will execute `/usr/bin/Magick++-config` within the container.
